@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Mulish:wght@400;600;700&display=swap');
+
+ul {
+    display: flex;
+    list-style-type: none; /* sirve para sacar las viñetas al lado de los elementos */
+    margin: 0;          /*se colocan en cero para sacarle el margen y la separacion entre los elementos*/
+    padding: 0;
+    background-color: #333; /*color del fondo*/
+    overflow: hidden;         
+  }
+
+li {
+    float: left;
+  }
+
+li a {
+    display: block;
+    color: rgb(239, 25, 25);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li a:hover {
+    background-color: #555;
+  }
+  h1 {
+    color: green;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Mulish', sans-serif;
+  }
+  .prueba {
+    color: blue
+  }

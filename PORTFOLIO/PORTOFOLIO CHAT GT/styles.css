@@ -1,0 +1,92 @@
+.menu {
+    list-style: none; /* Quita los marcadores de lista */
+    display: flex; /* Cambia el diseño a flexbox */
+    justify-content: space-around;
+    padding: 0; /* Quita el relleno predeterminado de la lista */
+}
+
+/* Estilo para los enlaces en la lista */
+.menu a {
+    text-decoration: none;
+    color: #e90e0e; /* Cambia el color del texto a tu elección */
+    font-weight: bold;
+}
+img { 
+    width: 20%;
+    height: 30%;
+    float: right;
+}
+section {
+    padding: 40px 0;
+    
+}
+.proyectos {
+    background-color: #e7eb97;
+    color: #222;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     
+}
+.contacto {
+    background-color: #a7eb97;
+    color: #222;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contacto ul { 
+    display: flex;
+}
+.contacto li {
+    
+    list-style: none;
+    margin: 10px;
+   
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    max-width: 1200px; /* Ancho máximo del contenedor */
+}
+header {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+/* Navegación */
+nav {
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.basketball-theme p {
+    max-width: 800px;
+}
+.basketball-theme {
+    background-color: #fff;
+    color: #222;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+/* Pie de página */
+footer {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Estilos adicionales */
+a:hover {
+    color: #FF5733; /* Color naranja para enlaces al pasar el mouse */
+}

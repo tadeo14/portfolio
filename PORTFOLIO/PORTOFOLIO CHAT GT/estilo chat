@@ -1,0 +1,69 @@
+
+/* /* /* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Navegación */
+nav {
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Secciones */
+section {
+    padding: 40px 0;
+}
+
+/* Estilo de baloncesto */
+.basketball-theme {
+    background-color: #fff;
+    color: #222;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
+footer {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos adicionales */
+a:hover {
+    color: #FF5733; /* Color naranja para enlaces al pasar el mouse */
+}
